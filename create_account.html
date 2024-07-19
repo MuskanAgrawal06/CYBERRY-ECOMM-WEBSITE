@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="create_account.css">
+
+
+    <title>Create Account</title>
+    <script src="create_account.js"></script>
+    <script src="index2.js"></script>
+    <script src="index1.js"></script>
+
+
+    <!-- <script src="feed.js"></script> -->
+    <script src="bind.js"></script>
+
+    <!-- <script src="register.js"></script> -->
+</head>
+
+<body>
+
+    <center>
+
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+
+    </center>
+
+    <div class="container">
+        <center>
+
+<!-- <form action="/create_account.html" method="post"> -->
+    
+    <form id="myForm" action="/create_account.html" method="post">
+    
+    
+            <p>Create a new account</p>
+
+            
+
+
+            <div class="box1">
+
+
+                <div class="item">
+                        <input type="text" placeholder="Name" id="name" name="name"> <br>
+                        <div id="name-valid">Please enter your name</div> <br>
+                    </div>
+                    <div class="item">
+                        <input type="email" placeholder="Email" id="email" name="email"> <br>
+                        <div id="email-valid">Please enter a valid email</div><br>
+                    </div>
+                </div>
+
+                <div class="box2">
+
+                    <div class="item">
+                        <input type="tel" placeholder="Mobile Number" id="mobilenumber" name="mobileno"> <br>
+                        <div id="number-valid">Please enter your mobile number</div> <br>
+                    </div>
+                </div>
+
+                <div class="box3">
+
+
+                    <div class="item">
+
+                        <input type="text" placeholder="Password" id="password" name="password"> <br>
+
+                        <div id="password-valid">Enter a Password</div> <br>
+                    </div>
+
+                    <div class="item">
+
+                        <input type="text" placeholder="Confirm Password" id="cfpassword"> <br>
+
+                        <div id="cfpassword-valid">Enter the password again</div>
+
+                        <div id="matchpassword">Your password doesnot match</div>
+
+                    </div>
+
+
+                </div>
+
+                
+                <br>
+                
+                <!-- <button onclick="myfunction();" id="insertBtn" value="login">Create Account</button> -->
+                
+                <button onclick="myfunction(event);" id="insertBtn" value="login" >Create Account</button>
+
+
+                <br>
+                
+                
+                
+                <h5><a href="login.html" target="_blank" class="haveaccount">Already have an account ?</a> </h5>
+                
+            </center>
+        </div>
+        
+    </form>
+
+
+</body>
+
+</html>

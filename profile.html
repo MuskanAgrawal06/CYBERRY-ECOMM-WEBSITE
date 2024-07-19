@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="profile.css">
+        <link rel="stylesheet" href="products.css">
+        <script src="products.js"> </script>
+        <script src="profile.js"></script>
+        <title>My Profile</title>
+    </head>
+    <body>
+        <header>   
+            <nav>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="" class="product">PRODUCTS</a>
+                            <div class="dropdown-content">
+                                <a href="">PHONE</a> <br>
+                                <a href="">TABLET</a> <br>
+                                <a href="">LAPTOP</a> <br>
+                                <a href="">TV</a> <br>
+                                <a href="">SMART WATCH</a> <br>
+                                <a href="">AIRPODES</a> <br>
+                                <a href="">CAMERA</a> <br>
+                                <a href="">SPEAKERS</a> <br>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="about.html" target="_parent">ABOUT</a></li>
+                </ul>
+            </nav>
+            <label for=""><a href="main.html">
+                    <img src="/images/logo.jpg" alt="LOGO" class="logo">
+                </a></label>
+            <input type="text" name="" id="" placeholder="Search" class="searchbox">
+            <div class="headerright">
+                <div class="profile">
+                    <!-- <img src="/images/img13.jpg" alt="" class="profile"> -->
+                    <a href="profile.html"><img src="/images/profile-icon.png" alt=""></a>
+                </div>
+                <div class="cart">
+                    <img src="/images/addtocart.png" alt="" onclick="turnon()">
+                </div>
+            </div>      
+            <div id="shopping-cart">
+                <div class="yourcart">
+                    <h2>YOUR CART</h2>
+                    <br>
+                    <div id="noofitems">                   
+                    </div>
+                </div>
+                <ul>
+                    <div id="shopping-box">                   
+                    </div>
+                </ul>           
+                <div class="moveon">
+                    <div id="total"></div>               
+                    <button class="checkout">
+                        <a href="payment.html">
+                            Checkout                        
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="profile-box">
+            <div class="leftpart">
+                <div>
+                    <img src="/images/gfav.png" alt="" class="profilephoto">
+                </div>
+            </div>
+
+            <form action="/profile.html" method="post">
+
+                <div class="rightpart">      
+                    <p class="name pbox" name = "name">Name: {{name}}</p>
+                <p class="email pbox" name="email">Email: {{email}}</p>
+                <p class="mobile pbox" name="mobile">Mobile: {{mobile}}</p>
+                <p class="password pbox" name="password">Password: {{password}}</p>
+                <!-- <p class="password pbox" name="password">Password : ********</p> -->
+                <button class="myorders pbtn">My Orders</button>
+                <button class="mywallet pbtn">My Wallet</button>
+                <button class="manageaccount pbtn">Manage Account</button>
+                <button class="helpcenter pbtn">Help Center</button>
+                <br>       
+                <button class="logout " onclick="loginin()">Logout</button>         
+                <button class="logout"  value="submit">Display</button>         
+            </div>
+        
+        </form>    
+        <br>
+    </div> 
+    <script>
+            let login = "login.html"
+            function loginin() {
+                window.location.replace(login);
+            }  
+        </script>
+    </body>
+    </html>

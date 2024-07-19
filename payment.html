@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="payment.css">
+    <script src="payment.js"></script>
+    <script src="products.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="" class="product">PRODUCTS</a>
+                        <div class="dropdown-content">
+                            <a href="">PHONE</a> <br>
+                            <a href="">TABLET</a> <br>
+                            <a href="">LAPTOP</a> <br>
+                            <a href="">TV</a> <br>
+                            <a href="">SMART WATCH</a> <br>
+                            <a href="">AIRPODES</a> <br>
+                            <a href="">CAMERA</a> <br>
+                            <a href="">SPEAKERS</a> <br>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="about.html" target="_parent">ABOUT</a></li>
+            </ul>
+        </nav>
+        <label for=""><a href="main.html">
+                <img src="/images/logo.jpg" alt="LOGO" class="logo">
+            </a></label>
+
+
+        <input type="text" name="" id="" placeholder="Search" class="searchbox">
+
+
+        <div class="headerright">
+
+            <div class="profile">
+                <!-- <img src="/images/img13.jpg" alt="" class="profile"> -->
+                <a href="profile.html"><img src="/images/profile-icon.png" alt=""></a>
+            </div>
+
+            <div class="cart">
+                <img src="/images/addtocart.png" alt="" onclick="turnon()">
+            </div>
+        </div>
+
+        <div id="shopping-cart">
+
+
+            <div class="yourcart">
+                <h2>YOUR CART</h2>
+                <br>
+                <div id="noofitems">
+
+                </div>
+            </div>
+
+
+
+            <ul>
+                <div id="shopping-box">
+
+
+                </div>
+            </ul>
+
+
+
+            <div class="moveon">
+
+                <div id="total"></div>
+
+                <button class="checkout">
+                    <a href="#">
+                        Checkout
+
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="mainbox">
+        <div class="address">
+            <h2>Address</h2>
+            <form action="">
+                <input type="text" placeholder="Name" id="name" required>
+                <br>
+                <input type="email" placeholder="Email" id="email" required>
+                <br>
+                <input type="text" placeholder="Address" id="address" required>
+                <br>
+                <input type="text" placeholder="City" id="city" required>
+                <br>
+                <input type="text" placeholder="State" id="state" required>
+                <br>
+                <input type="text" placeholder="ZIP" id="zip" required>
+                <br>
+            </form>
+        </div>
+
+
+        <div class="modeofpay">
+            <h2>Mode of payment</h2>
+            <form action="">
+                
+
+                <button onclick="cardtopay()">
+                    Credit Card</button>
+                    
+                    <button onclick="UPI()">
+                        UPI</button>
+
+                <div class="cardtopay" id="onandoff">
+
+
+                    <input type="text" placeholder="Card Holder Name" id="zip" required>
+                    <br>
+                    
+                    <input type="text" placeholder="Credit Card Number" id="zip" required>
+                    <br>
+                    
+                    <input type="text" placeholder="Expiry Month" min="1" id="zip" required>
+                    <br>
+                    
+                    <input type="text" placeholder="CVV" min="1" id="zip" required>
+                    <br>
+                   
+                    
+
+                    
+                </div>
+
+                
+            </form>
+
+
+            
+
+        </div>
+      
+
+    </div>
+
+    <div class="pobtn">
+        <button class="placeorder" onclick="placeorder()">Place Order</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

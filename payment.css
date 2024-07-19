@@ -1,0 +1,118 @@
+.mainbox {
+    /* display: grid; */
+    display: inline-flex;
+
+}
+
+.pobtn {
+
+    height: 100px;
+    margin: 20px;
+
+}
+
+.placeorder {
+    height: 50px;
+    width: 1000px;
+    position: absolute;
+    margin: 30px;
+    margin-left: 200px;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.placeorder:hover {
+    background-color: rgb(1, 186, 32);
+
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+
+.address {
+    height: 550px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(162, 170, 171);
+}
+
+.address:hover {
+   background-color: rgb(146, 153, 153);
+}
+
+
+.address h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.address input {
+    width: 450px;
+    margin: 10px;
+    height: 60px;
+    padding: 20px;
+}
+
+
+
+
+
+
+.modeofpay {
+    height: 550px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: rgb(162, 170, 171);
+    margin: 10px;
+    margin-left: 300px;
+}
+
+.modeofpay h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.cardtopay{
+    margin: 20px;
+}
+.cardtopay input{
+    width: 450px;
+    margin: 10px;
+    height: 60px;
+    padding: 20px;
+}
+
+form button{
+    width: 225px;
+    margin: 10px;
+    height: 60px;
+    padding: 20px;
+
+}
+
+.upi input{
+    width: 450px;
+    margin: 10px;
+    height: 60px;
+    padding: 20px;
+    
+}
+
+#onandoff{
+    display: none;
+}
+
+
+
+.cart-to-pay {
+    height: 550px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="admin_access.js"></script>
+    <style>
+        .container {
+            background-color: #12192c;
+            color: white;
+            width: 1340px;
+            border-radius: 10px;
+            position: absolute;
+            height: 820px;
+
+        }
+
+        img {
+            height: 100px;
+            width: 120px;
+        }
+
+
+
+        .main {
+            display: inline-flex;
+            margin: 20px;
+        }
+
+        .left {
+            border: 1px solid white;
+
+            height: 600px;
+            width: 500px;
+            margin: 20px;
+            margin-left: 130px;
+        }
+
+        .right {
+            border: 1px solid white;
+
+            margin: 20px;
+            height: 600px;
+            width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .left input {
+            margin: 20px;
+            height: 30px;
+            width: 300px;
+            padding: 10px;
+
+        }
+
+        .right input {
+            margin: 20px;
+            height: 30px;
+            width: 300px;
+            padding: 10px;
+
+        }
+
+
+        button{
+            height: 40px;
+            width: 100px;
+            font-size: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <center>
+
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+
+    </center>
+
+    <div class="container">
+
+        <h1>Admin Access</h1>
+        <br>
+
+
+        <div class="main">
+
+            <center>
+               
+                <form action="/Admin_access.html"  method="post">
+
+                    <div class="left">
+                        
+                    <br>
+                    
+                    <h2>
+                       ADD NEW PRODUCT 
+                    </h2>
+                     
+                    <br>
+
+
+                    <input type="text" placeholder="Product ID" name="product_id">
+                    <br>
+
+                    <input type="text" placeholder="Product Name" name="product_name">
+                    <br>
+                    <input type="text" placeholder="Quantity" name="product_quantity">
+                    <br>
+                    <input type="text" placeholder="Price" name="product_price">
+                    <br>
+                    <br>
+                    <button value="submit" onclick="givealert()" >Add</button>
+                    
+                    <!-- <button>Delete</button> -->
+                    
+                </form>
+  
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </center>
+
+
+            <center>
+               
+                <form action="/Admin_access.html"  method="post">
+
+                    <div class="left">
+                        
+                    <br>
+                    
+                    <h2>
+                       DELETE PRODUCT  
+                    </h2>
+                     
+                    <br>
+
+
+                    <input type="text" placeholder="Product ID" name="delete_product_id">
+                    <br>
+
+                    <input type="text" placeholder="Product Name" name="delete_product_name">
+                    <br>
+                    
+                    <br>
+                    <button value="submit" onclick="deletealert()" >Delete</button>
+                    
+                    <!-- <button>Delete</button> -->
+                    
+                </form>
+  
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </center>
+            
+        </div>
+
+    </div>
+
+
+    <script>
+        function givealert()
+        {
+
+            
+            alert("This product has been successfully added");
+
+        }
+
+        function deletealert()
+        {
+            alert("This Product has been deleted.")
+        }
+    </script>
+
+</body>
+
+</html>

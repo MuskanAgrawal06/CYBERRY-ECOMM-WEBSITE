@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+.container{
+    display: flex;
+}
+
+.leftbox{
+    width: 400px;
+    height: 654px;
+    float: left;
+    margin-right: 700px;
+}
+
+
+
+.leftbox .img1{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+}
+
+.leftbox .img1:hover{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+    content: url('/images/img17.jpg');
+}
+.leftbox .img2{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+}
+
+.leftbox .img2:hover{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+    content: url('/images/img22.jpg');
+}
+
+.midbox{
+    width: 600px;
+    justify-content: center;
+    left: 29%;
+    position: absolute;
+}
+
+.rightbox{
+    width: 400px;
+    float: right;
+    height: 654px;
+}
+
+
+
+.rightbox .img3{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+}
+
+.rightbox .img3:hover{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+    content: url('/images/img18.jpg');
+}
+.rightbox .img4{
+    height: 300px ;
+    width: 300px ;  
+    margin: 10px;
+}
+
+.rightbox .img4:hover{
+    height: 300px ;
+    width: 300px ;
+    margin: 10px;
+    content: url('/images/img20.jpg');
+}
+
+
+
+.box2 {
+
+    float: right;
+    color: black;
+    height: 100vh;
+    width: 90vh;
+
+
+}
+
+.logo {
+    height: 70px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+h1 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+label {
+    text-align: center;
+    color: rgb(61, 68, 68);
+
+}
+
+input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 60vh;
+    height: 4vh;
+    border-bottom: 1px solid grey;
+    color: black;
+    margin: 20px;
+}
+
+.forget {
+    color: rgb(95, 108, 109);
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 31vh;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+button:hover {
+    height: 42px;
+    width: 152px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+
+
+.or {
+    margin-top: 25px;
+    font-size: 17px;
+
+}
+
+
+#username-error-bck {
+    text-align: left;
+    display: none;
+    background-color: rgba(242, 166, 166, 0.508);
+    color: red;
+    width: 400px;
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#email-error-bck {
+    text-align: left;
+    display: none;
+    background-color: rgba(242, 166, 166, 0.508);
+    color: red;
+    width: 400px;
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#password-error-bck {
+    text-align: left;
+    display: none;
+    background-color: rgba(242, 166, 166, 0.508);
+    color: red;
+    width: 400px;
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 3px;
+}
+ 
+
+.googlesignin {
+
+
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gfav {
+    margin-top: 5px;
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+.asign {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+div.createaccount {
+
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
+
+hr {
+    width: 70px;
+    display: inline-block;
+    color: rgb(224, 209, 209);
+}
+
+
+
+
+

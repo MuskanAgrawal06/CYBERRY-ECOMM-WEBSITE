@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script src="admin_login.js"></script>
+    <style>
+        .admin {
+            background-color: rgb(255, 255, 255);
+            width: 500px;
+            position: absolute;
+            left: 10%;
+        }
+
+        .imagebox img {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            left: 60%;
+            top: 20%;
+            margin: 40px;
+
+        }
+        img{
+            height: 100px;
+            width: 150px;
+        }
+
+        input{
+            margin: 20px;
+            height: 40px;
+            width: 300px;
+            padding: 10px;
+        }
+
+        button{
+            height: 40px;
+            margin: 20px;
+            width: 100px;
+            font-size: 20px;
+        }
+
+        a{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <form id="myForm" action="/admin_login.html" method="post">
+<center>
+
+    <div class="admin">
+        
+
+            <img src="/images/logo.jpg" alt="" class="logo">
+            
+            <h3>
+                WelCome to Cyberry Admin Login
+            </h3>
+
+
+            <input type="text" id="ID" name="id"  placeholder="Enter Admin ID">
+            
+            <br>
+            
+            
+            <input type="text" id="password" name="password"  placeholder="Enter Password">
+
+            <br>
+
+            <button value="submit">Submit</button>
+
+
+            <!-- <br>
+            <button onclick="signin(event)" value="login">Sign In</button>
+            <br>
+          -->
+            
+            <div class="googlesignin">
+                <img src="images/gfav.png" alt="" class="gfav" style="height: 20px; width: 20px;">
+
+                <a href="login.html" class="asign">Visit to users login</a>
+            </div>
+            
+            <br>
+            <div class="createaccount">New at Cyberry?
+                <a class="createaccount" href="create_account.html" target="_blank">Create account</a>
+            </div>
+            
+        </center>
+          
+        
+    </center>
+        
+    </form>
+
+
+    <div class="imagebox">
+        <img src="security.png" alt="">
+    </div>
+
+    </div>
+
+
+    
+</body>
+
+</html>

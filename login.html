@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <script src="index1.js"></script>
+
+    
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="leftbox">
+            <img src="images/img1.jpg" alt="" class="img1">
+            <img src="images/img12.jpg" alt="" class="img2">
+
+
+        </div>
+
+        <div class="midbox">
+
+
+            <form id="myForm" action="/login.html" method="post">
+            <center>
+
+    
+    <img src="/images/logo.jpg" alt="" class="logo">
+    
+                <h3>
+                    WelCome to Cyberry
+                </h3>
+
+                <label for="">Email</label>
+                <br>
+                <input type="text" id="email" name="email">
+                <br>
+
+                <div id="username-error-bck">
+                    Please enter the email
+                </div>
+                <div id="email-error-bck">
+                    Please enter valid email
+                </div>
+
+                <br>
+                <label for="">Password</label>
+
+                <br>
+                <input type="text" id="password" style="color: black;" name="password">
+                <br>
+                
+                <div id="password-error-bck">
+                    Please enter some valid password
+                </div>
+                
+                
+                <a href="" class="forget">Forget Password?</a>
+                
+                <br>
+                <button onclick="signin(event)" value="login">Sign In</button>
+                <br>
+                <div class="or">
+                    <hr> or
+                    <hr>
+                </div>
+                
+                <div class="googlesignin">
+                    <img src="images/gfav.png" alt="" class="gfav">
+                    <a href="Admin_login.html" class="asign">ADMIN LOGIN</a>
+                </div>
+                
+                <br>
+                <div class="createaccount">New at Cyberry?
+                    <a class="createaccount" href="create_account.html" target="_blank">Create account</a>
+                </div>
+                
+            </center>
+            
+        </form>
+
+
+        </div>
+
+        <div class="rightbox">
+
+            <img src="/images/Airpods/apple-airpods-headset-mmef-zubeh-34.png" alt="" class="img3">
+            <img src="/images/img15.jpg" alt="" class="img4">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.container {
+    background-color: #12192c;
+    color: white;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 5px;
+    width: 1000px;
+    border-radius: 10px;
+    position: relative;
+    height: 520px;
+
+}
+
+.container  p{
+    font-size: 25px;
+}
+
+.box1 {
+    height: 90px;
+    display: flex;
+    margin: 20px;
+}
+
+.box2 {
+    height: 90px;
+    display: flex;
+    margin: 20px;
+}
+
+.box3 {
+    height: 90px;
+    display: flex;
+    margin: 20px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 40px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: #12192c;
+    color: white;
+    font-size: 14px;
+    width: 280px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+p {
+    line-height: 50px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+button {
+    background-color: #12192c;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    width: 200px;
+    height: 40px;
+    border-radius: 35px;
+    border: 1px solid white;
+}
+
+button:hover {
+
+    background-color: white;
+    color: #12192c;
+}
+
+a {
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#cfpassword-valid,
+#password-valid,
+#number-valid,
+#email-valid,
+#name-valid,
+#matchpassword {
+    text-align: left;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.508);
+    color: rgb(255, 0, 0);
+    width: 270px;
+    border: 1px solid #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+.haveaccount {
+    font-size: 15px;
+}

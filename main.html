@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberry</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="" class="product">PRODUCTS</a>
+                        <div class="dropdown-content">
+                            <a href="">PHONE</a> <br>
+                            <a href="">TABLET</a> <br>
+                            <a href="">LAPTOP</a> <br>
+                            <a href="">TV</a> <br>
+                            <a href="">SMART WATCH</a> <br>
+                            <a href="">AIRPODES</a> <br>
+                            <a href="">CAMERA</a> <br>
+                            <a href="">SPEAKERS</a> <br>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="about.html" target="_parent">ABOUT</a></li>
+            </ul>
+        </nav>
+
+
+        <label for=""><a href="main.html">
+                <img src="/images/logo.jpg" alt="LOGO" class="logo">
+            </a></label>
+
+
+        <input type="text" name="" id="" placeholder="Search" class="searchbox">
+
+
+        <div class="headerright">
+
+            <div class="profile">
+                <!-- <img src="/images/img13.jpg" alt="" class="profile"> -->
+                <a href="profile.html"><img src="/images/profile-icon.png" alt=""></a>
+            </div>
+
+            <div class="cart">
+                <img src="/images/addtocart.png" alt="" onclick="turnon()">
+            </div>
+        </div>
+
+        <div id="shopping-cart">
+
+
+            <div class="yourcart">
+                <h2>YOUR CART</h2>
+                <br>
+                <div id="noofitems">
+
+                </div>
+            </div>
+
+
+
+            <ul>
+                <div id="shopping-box">
+
+
+                </div>
+            </ul>
+
+
+
+            <div class="moveon">
+
+                <div id="total"></div>
+
+                <button class="checkout">
+                    <a href="payment.html">
+                        Checkout
+
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </header>
+
+    <div class="slider">
+        <div class="slider-container">
+        </div>
+    </div>
+
+
+    <div class="categories">
+
+        <div class="categories-mentioned">
+
+            <div class="box1">
+                <a href="mobile.html"><img
+                        src="/images/Phone/png-transparent-apple-iphone-8-apple-iphone-7-plus-product-red-iphone-red-gadget-mobile-phone-case-mobile-phone-thumbnail.png"
+                        alt="">
+                    <h3>Phone</h3>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="Speaker.html"><img
+                        src="/images/Speakers/png-transparent-computer-speakers-sound-box-multimedia-speaker-electronics-speaker-sound-thumbnail.png"
+                        alt="">
+                    <h3>Speakers</h3>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="laptop.html"><img
+                        src="/images//Laptops/png-transparent-black-microsoft-windows-laptop-computer-laptop-macbook-pro-refurbishment-macbook-air-laptops-gadget-electronics-netbook-thumbnail.png"
+                        alt="">
+                    <h3>Laptop</h3>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="Airpodes.html"><img src="/images//Airpods/airpods-pro-airpods-what-the-difference-and-10.png"
+                        alt="">
+                    <h3>Airpods</h3>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="Camera.html"><img
+                        src="/images/Camera/png-clipart-black-nikon-coolpix-dslr-camera-nikon-coolpix-camera-electronics-photo-cameras-thumbnail.png"
+                        alt="">
+                    <h3>Camera</h3>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="indiproducts">
+
+        <div class="gallery">
+            <div class="content">
+                <img
+                    src="/images/Phone/png-transparent-feature-phone-smartphone-chromecast-mobile-phones-sfr-tv-smartphone-electronics-gadget-mobile-phone-thumbnail.png">
+                <h3>Phone</h3>
+                <h6>₹ 37, 000</h6>
+                <button class="buy-2" onclick="addtocart('Phone',37000)">Add to cart</button>
+            </div>
+
+
+            <div class="content">
+                <img
+                    src="/images/Laptops/png-transparent-laptop-computer-icons-laptop-electronics-gadget-image-file-formats-thumbnail.png">
+                <h3>Laptop</h3>
+                <h6>₹ 1,40,000</h6>
+                <button class="buy-2" onclick="addtocart('Laptop',140000)">Add to cart</button>
+            </div>
+
+            <div class="content">
+                <img
+                    src="/images//Camera/png-clipart-modern-dslr-icon-collection-canon-eos50d-black-canons-eos-50d-thumbnail.png">
+                <h3>Camera</h3>
+                <h6>₹ 55,000</h6>
+                <button class="buy-2" onclick="addtocart('Camera',55000)">Add to cart</button>
+            </div>
+
+            <div class="content">
+                <img
+                    src="/images//Speakers/png-transparent-loudspeaker-philips-computer-speakers-nashik-sound-speakers-miscellaneous-electronics-speaker-thumbnail.png">
+                <h3>Speakers</h3>
+                <h6>₹ 17,500</h6>
+                <button class="buy-2" onclick="addtocart('Speakers',17500)">Add to cart</button>
+            </div>
+
+            <div class="content">
+                <img
+                    src="/images//Tablets/png-transparent-ipad-mini-2-ipad-air-ipad-3-ipad-mini-4-ipad-gadget-electronics-ipad-mini-thumbnail.png">
+                <h3>Tablet</h3>
+                <h6>₹ 27,000</h6>
+                <button class="buy-2" onclick="addtocart('Tablet',27000)">Add to cart</button>
+            </div>
+
+            <div class="content">
+                <img
+                    src="/images/Gaming consoles/png-transparent-jet-black-sony-ps4-pro-console-sony-playstation-4-pro-video-game-consoles-ps4-pro-electronics-gadget-video-game-thumbnail.png">
+                <h3>Gaming Console</h3>
+                <h6>₹ 22,000</h6>
+                <button class="buy-2" onclick="addtocart('Gaming Console',22000)">Add to cart</button>
+            </div>
+
+
+            <div class="content">
+                <img
+                    src="/images//Mouse/png-transparent-computer-mouse-computer-keyboard-computer-software-gamer-pc-mouse-game-electronics-computer-keyboard-thumbnail.png">
+                <h3>Mouse</h3>
+                <h6>₹ 1800</h6>
+                <button class="buy-2" onclick="addtocart('Mouse' , 1800)">Add to cart</button>
+            </div>
+
+
+            <div class="content">
+                <img
+                    src="/images/Powerbank/png-transparent-battery-charger-xiaomi-baterie-externă-usb-c-quick-charge-usb-electronics-gadget-mobile-phone-thumbnail.png">
+                <h3>Powerbank</h3>
+                <h6>₹ 5,000</h6>
+                <button class="buy-2" onclick="addtocart('Powerbank',5000)">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+
+        <div class="footerimage">
+            <img src="/images/logo.jpg" alt="">
+
+        </div>
+
+        <div class="footerarea">
+
+
+            <div class="footer-box1">
+                <h2>Online Shop</h2>
+                <ul>
+                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="airpodes.html">Airpodes</a>
+                    <li>
+                    <li><a href="tablet.html">Tablet</a></li>
+                    <li><a href="Camera.html">Camera</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-box2">
+                <ul>
+                    <li><a href=""><img src="/images/Socials/fb.png" alt=""></a></li>
+                    <li><a href=""><img src="/images/Socials/insta.png" alt=""></a></li>
+                    <li><a href=""><img src="/images/Socials/twit.png" alt=""></a></li>
+                    <li><a href=""><img src="/images/Socials/wtsp.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-box3">
+                <h2>
+                    Cyberry &copy; 2023-24
+
+                </h2>
+            </div>
+            <div class="footer-box4">
+                <ul>
+                    <li><img src="/images/footer-bank-bhim.png" alt=""></li>
+                    <li><img src="/images/footer-bank-cod.png" alt=""></li>
+                    <li><img src="/images/footer-bank-mc.png" alt=""></li>
+                    <li><img src="/images/footer-bank-nb.png" alt=""></li>
+                    <li><img src="/images/footer-bank-rupay.png" alt=""></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
